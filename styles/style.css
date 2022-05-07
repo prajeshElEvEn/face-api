@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.container .title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.container .sub-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container .content {
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+}
+
+.container .vid-container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .vid-container #video {
+  border-radius: 2rem;
+  background-color: #efefef;
+  -webkit-box-shadow: 1px 1px 10px #adadad;
+          box-shadow: 1px 1px 10px #adadad;
+}
+
+.container .vid-container canvas {
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
